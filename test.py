@@ -60,6 +60,7 @@ def test_recon():
     plt.imshow(recon.cpu(), cmap="gray")
     plt.title('MLEM')
 
+
 if __name__=="__main__":
     test_recon()
     plt.show()
